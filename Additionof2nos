@@ -1,0 +1,21 @@
+;   Program to add two 8 bit nos.
+;   Created By: Mani Agarwal
+;   Email : agarwalmani22@gmail.com
+;   Date  : 25-10-2018
+
+org 100h
+
+.data
+a db 0A8h
+b db 02Ch
+c db ?
+
+.code
+MOV ax, @data
+MOV ds,ax
+MOV al,a
+MOV bl,b
+ADD AL,BL
+MOV CL,AL
+
+ret
