@@ -1,7 +1,7 @@
 ;   Program to add two 8 bit nos.
 ;   Created By: Mani Agarwal
 ;   Email : agarwalmani22@gmail.com
-;   Date  : 25-10-2018
+;   Date  : 24-12-2018
 
 org 100h
 
